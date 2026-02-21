@@ -1,3 +1,5 @@
+//set CLASSPATH=.;C:\MyJavaCourse\Advanced Java\mysql-connector-j-9.6.0.jar
+
 import java.sql.*;
 
 class JDBC0{
@@ -20,7 +22,7 @@ class JDBC0{
 			Statement stmt = Con.createStatement();
 			
 			//step-4 Exeute the connection 
-			stmt.executeUpdate("insert into students values(4,'Kumar','10B',15)");
+			stmt.executeUpdate("insert into students values(5,'deppu','10B',17)");
 			
 			
 			
