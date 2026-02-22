@@ -5,7 +5,7 @@ class JDBC1{
 		String Driver ="com.mysql.cj.jdbc.Driver";
 		String url="jdbc:mysql://localhost:3306/school";
 		String user="root"; //orcale user = System
-		String password="3272";
+		String password="****";
 		try{
 		//step-1 register the driver 
 		Class.forName(Driver);
